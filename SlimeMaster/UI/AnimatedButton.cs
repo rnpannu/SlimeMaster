@@ -29,12 +29,12 @@ public class AnimatedButton : Button
         topLevelContainer.WidthUnits = DimensionUnitType.RelativeToChildren;
 
         // Nineslice background
-        NineSliceRuntime niceSlineInstance = new NineSliceRuntime();
+        NineSliceRuntime nineSliceInstance = new NineSliceRuntime();
         nineSliceInstance.Height = 0f;
-        NineSliceRuntimeInstance.Texture = atlas.Texture;
+        //NineSliceRuntimeInstance.Texture = atlas.Texture;
         nineSliceInstance.TextureAddress = TextureAddress.Custom; // Specify from atlas
         nineSliceInstance.Dock(Gum.Wireframe.Dock.Fill);
-        topLevelContainer.Children.Add(NineSliceInstance); // Why is this different from the form AddChild()
+        //topLevelContainer.Children.Add(NiceSliceInstance); // Why is this different from the form AddChild()
 
         TextRuntime textInstance = new TextRuntime();
         textInstance.Name = "TextInstance";
@@ -42,7 +42,7 @@ public class AnimatedButton : Button
         textInstance.Green = 80;
         textInstance.Red = 70;
         textInstance.UseCustomFont = true;
-        textInstance.FontScale = 0.25;
+        //textInstance.FontScale = 0.25;
         textInstance.Anchor(Gum.Wireframe.Anchor.Center);
         textInstance.Width = 0;
         textInstance.WidthUnits = DimensionUnitType.RelativeToChildren;
@@ -83,11 +83,11 @@ public class AnimatedButton : Button
             focusedAnimation.Add(frame);
         }
 
-        nineSliceInstance.AnimationChains = new AnimationChainList
-        {
-            unfocusedAnimation,
-            focusedAnimation
-        }
+        //nineSliceInstance.AnimationChains = new AnimationChainList
+        //{
+        //    unfocusedAnimation,
+        //    focusedAnimation
+        //}
 
         StateSaveCategory category = new StateSaveCategory();
         category.Name = Button.ButtonCategoryName;
@@ -95,37 +95,37 @@ public class AnimatedButton : Button
 
         StateSave enabledState = new StateSave();
         enabledState.Name = FrameworkElement.EnabledStateName;
-        enabledState.Apply () =>
-        {
-            nineSliceInstance.CurrentChainName = unfocusedAnimation.Name;
-        };
+        //enabledState.Apply () =>
+        //{
+        //    nineSliceInstance.CurrentChainName = unfocusedAnimation.Name;
+        //};
 
-        category.States.Add(enabledState);
+        //category.States.Add(enabledState);
 
-        StateSave focusedState = new StateSave();
+        //StateSave focusedState = new StateSave();
 
-        focusedState.Name = FrameworkElement.FocusedStateName;
-        focusedState.Apply () =>
-        {
-            nineSliceInstance.CurrentChainName = focusedAnimation.Name;
-            nineSliceInstance.Animate = true;
-        };
+        //focusedState.Name = FrameworkElement.FocusedStateName;
+        //focusedState.Apply () =>
+        //{
+        //    nineSliceInstance.CurrentChainName = focusedAnimation.Name;
+        //    nineSliceInstance.Animate = true;
+        //};
 
-        category.States.Add(focusedState);
+        //category.States.Add(focusedState);
 
-        StateSave hightlightedFocused = focusedState.Clone();
-        highlightedFocused.Name = FrameworkElement.HighlightedFocusedStateName;
-        category.States.Add(highlightedFocused);
+        //StateSave hightlightedFocused = focusedState.Clone();
+        //highlightedFocused.Name = FrameworkElement.HighlightedFocusedStateName;
+        //category.States.Add(highlightedFocused);
 
-        StateSave highlighted = enabledState.Clone();
-        highlighted.Name = FrameworkElement.HighlightedStateName;
-        category.States.Add(highlighted);
+        //StateSave highlighted = enabledState.Clone();
+        //highlighted.Name = FrameworkElement.HighlightedStateName;
+        //category.States.Add(highlighted);
 
-        KeyDown += HandleKeyDown;
+        //KeyDown += HandleKeyDown;
 
-        topLevelContainer.RollOn += HandleRollOn;
+        //topLevelContainer.RollOn += HandleRollOn;
 
-        Visual = topLevelContainer;
+        //Visual = topLevelContainer;
 
     }
 
