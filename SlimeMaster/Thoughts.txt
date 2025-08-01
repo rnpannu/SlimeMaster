@@ -1,0 +1,19 @@
+
+
+1. Understanding everything at the baseline might be valuable.
+	- How to integrate tools - explore the simple export options in Tiled, LDtk. 
+		- Want simple xml for tiles, maybe collision zones (might not even be needed for tower defense)
+			- Might want to see how paths/waypoints are exported to xml.
+
+	- Like with tilemaps, texture atlases. Can we use a tool to automate creation of a texture atlas and its xml
+	  in a simple format like the one we have now. 
+
+
+	- How should we build the app. There is a basic scene system in place right now. But if we want the city builder 
+	  -> tower defense tile capture subgame then we have 2 very complicated systems. Consider namespaces, even projects, general organization.
+
+	  General considerations
+		- Objects.
+			i) City builder has tiles of potentially different qualities (environment: land, water), buildings, and other potential game events.
+				- Tiles have an associated tower defense level. 
+			ii) Tower defense levels have tilemaps, a path, enemy entities, towers, and maybe: projectiles, physics.
