@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\ui\\optionsslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\ui\\optionsslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\ui\\animatedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\ui\\animatedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\thoughts.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\thoughts.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E148734-A169-49DC-B96C-3F707B2FD003}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\monogamelibrary\\graphics\\textureregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E148734-A169-49DC-B96C-3F707B2FD003}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\graphics\\textureregion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\content\\content.mgcb||{3EC6CBD1-65BD-4B26-A758-3B207D048872}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\content\\images\\tilemap-definition.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\content\\images\\tilemap-definition.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\scenes\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\scenes\\titlescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\scenes\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\scenes\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\slimemaster\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA3D8D8D-532A-4A1A-B9DC-E16D07D701B2}|SlimeMaster\\SlimeMaster.csproj|solutionrelative:slimemaster\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E148734-A169-49DC-B96C-3F707B2FD003}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\monogamelibrary\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E148734-A169-49DC-B96C-3F707B2FD003}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E148734-A169-49DC-B96C-3F707B2FD003}|MonoGameLibrary\\MonoGameLibrary.csproj|c:\\users\\mapannu\\source\\repos\\slimemaster\\monogamelibrary\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E148734-A169-49DC-B96C-3F707B2FD003}|MonoGameLibrary\\MonoGameLibrary.csproj|solutionrelative:monogamelibrary\\scenes\\scene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OptionsSlider.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\UI\\OptionsSlider.cs",
+              "RelativeDocumentMoniker": "SlimeMaster\\UI\\OptionsSlider.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\UI\\OptionsSlider.cs",
+              "RelativeToolTip": "SlimeMaster\\UI\\OptionsSlider.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:42:26.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Thoughts.txt",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Thoughts.txt",
+              "RelativeDocumentMoniker": "SlimeMaster\\Thoughts.txt",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Thoughts.txt",
+              "RelativeToolTip": "SlimeMaster\\Thoughts.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-31T20:30:33.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimatedButton.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\UI\\AnimatedButton.cs",
+              "RelativeDocumentMoniker": "SlimeMaster\\UI\\AnimatedButton.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\UI\\AnimatedButton.cs",
+              "RelativeToolTip": "SlimeMaster\\UI\\AnimatedButton.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T20:09:49.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TextureRegion.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\MonoGameLibrary\\Graphics\\TextureRegion.cs",
+              "RelativeDocumentMoniker": "MonoGameLibrary\\Graphics\\TextureRegion.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\MonoGameLibrary\\Graphics\\TextureRegion.cs",
+              "RelativeToolTip": "MonoGameLibrary\\Graphics\\TextureRegion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T20:07:42.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Content.mgcb",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Content\\Content.mgcb",
+              "RelativeDocumentMoniker": "SlimeMaster\\Content\\Content.mgcb",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Content\\Content.mgcb",
+              "RelativeToolTip": "SlimeMaster\\Content\\Content.mgcb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-31T20:00:49.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tilemap-definition.xml",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Content\\images\\tilemap-definition.xml",
+              "RelativeDocumentMoniker": "SlimeMaster\\Content\\images\\tilemap-definition.xml",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Content\\images\\tilemap-definition.xml",
+              "RelativeToolTip": "SlimeMaster\\Content\\images\\tilemap-definition.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-07-31T19:52:35.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Scene.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\MonoGameLibrary\\Scenes\\Scene.cs",
+              "RelativeDocumentMoniker": "MonoGameLibrary\\Scenes\\Scene.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\MonoGameLibrary\\Scenes\\Scene.cs",
+              "RelativeToolTip": "MonoGameLibrary\\Scenes\\Scene.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:11:48.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameScene.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Scenes\\GameScene.cs",
+              "RelativeDocumentMoniker": "SlimeMaster\\Scenes\\GameScene.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Scenes\\GameScene.cs",
+              "RelativeToolTip": "SlimeMaster\\Scenes\\GameScene.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwFcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:40:06.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TitleScene.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Scenes\\TitleScene.cs",
+              "RelativeDocumentMoniker": "SlimeMaster\\Scenes\\TitleScene.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Scenes\\TitleScene.cs",
+              "RelativeToolTip": "SlimeMaster\\Scenes\\TitleScene.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAADEBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T14:50:12.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Game1.cs",
+              "RelativeDocumentMoniker": "SlimeMaster\\Game1.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\SlimeMaster\\Game1.cs",
+              "RelativeToolTip": "SlimeMaster\\Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T19:06:03.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\MonoGameLibrary\\Core.cs",
+              "RelativeDocumentMoniker": "MonoGameLibrary\\Core.cs",
+              "ToolTip": "C:\\Users\\mapannu\\source\\repos\\SlimeMaster\\MonoGameLibrary\\Core.cs",
+              "RelativeToolTip": "MonoGameLibrary\\Core.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwHEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T19:49:48.101Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
