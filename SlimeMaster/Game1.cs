@@ -41,7 +41,7 @@ public class Game1 : Core
         GumService.Default.Renderer.Camera.Zoom = 4.0f;
 
     }
-    public Game1() : base("Dungeon Slime", 1280, 720, false)
+    public Game1() : base("SlimeMaster", 1280, 720, false)
     {
 
     }

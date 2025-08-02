@@ -31,10 +31,10 @@ public class AnimatedButton : Button
         // Nineslice background
         NineSliceRuntime nineSliceInstance = new NineSliceRuntime();
         nineSliceInstance.Height = 0f;
-        //NineSliceRuntimeInstance.Texture = atlas.Texture;
+        nineSliceInstance.Texture = atlas.Texture;
         nineSliceInstance.TextureAddress = TextureAddress.Custom; // Specify from atlas
         nineSliceInstance.Dock(Gum.Wireframe.Dock.Fill);
-        //topLevelContainer.Children.Add(NiceSliceInstance); // Why is this different from the form AddChild()
+        topLevelContainer.Children.Add(nineSliceInstance); // Why is this different from the form AddChild()
 
         TextRuntime textInstance = new TextRuntime();
         textInstance.Name = "TextInstance";
@@ -42,7 +42,8 @@ public class AnimatedButton : Button
         textInstance.Green = 80;
         textInstance.Red = 70;
         textInstance.UseCustomFont = true;
-        //textInstance.FontScale = 0.25;
+        textInstance.CustomFontFile = "fonts/04b_30.fnt";
+        textInstance.FontScale = 0.25f;
         textInstance.Anchor(Gum.Wireframe.Anchor.Center);
         textInstance.Width = 0;
         textInstance.WidthUnits = DimensionUnitType.RelativeToChildren;
@@ -77,17 +78,18 @@ public class AnimatedButton : Button
                 BottomCoordinate = region.BottomTextureCoordinate,
                 LeftCoordinate = region.LeftTextureCoordinate,
                 RightCoordinate = region.RightTextureCoordinate,
+                FrameLength = (float)focusedAtlasAnimation.Delay.TotalSeconds,
                 Texture = region.Texture
             };
 
             focusedAnimation.Add(frame);
         }
 
-        //nineSliceInstance.AnimationChains = new AnimationChainList
-        //{
-        //    unfocusedAnimation,
-        //    focusedAnimation
-        //}
+        nineSliceInstance.AnimationChains = new AnimationChainList
+        {
+            unfocusedAnimation,
+            focusedAnimation
+        };
 
         StateSaveCategory category = new StateSaveCategory();
         category.Name = Button.ButtonCategoryName;
@@ -95,37 +97,38 @@ public class AnimatedButton : Button
 
         StateSave enabledState = new StateSave();
         enabledState.Name = FrameworkElement.EnabledStateName;
-        //enabledState.Apply () =>
-        //{
-        //    nineSliceInstance.CurrentChainName = unfocusedAnimation.Name;
-        //};
 
-        //category.States.Add(enabledState);
+        enabledState.Apply = () => // syntax is weird
+        {
+            nineSliceInstance.CurrentChainName = unfocusedAnimation.Name;
+        };
 
-        //StateSave focusedState = new StateSave();
+        category.States.Add(enabledState);
 
-        //focusedState.Name = FrameworkElement.FocusedStateName;
-        //focusedState.Apply () =>
-        //{
-        //    nineSliceInstance.CurrentChainName = focusedAnimation.Name;
-        //    nineSliceInstance.Animate = true;
-        //};
+        StateSave focusedState = new StateSave();
 
-        //category.States.Add(focusedState);
+        focusedState.Name = FrameworkElement.FocusedStateName;
+        focusedState.Apply = () =>
+        {
+            nineSliceInstance.CurrentChainName = focusedAnimation.Name;
+            nineSliceInstance.Animate = true;
+        };
 
-        //StateSave hightlightedFocused = focusedState.Clone();
-        //highlightedFocused.Name = FrameworkElement.HighlightedFocusedStateName;
-        //category.States.Add(highlightedFocused);
+        category.States.Add(focusedState);
 
-        //StateSave highlighted = enabledState.Clone();
-        //highlighted.Name = FrameworkElement.HighlightedStateName;
-        //category.States.Add(highlighted);
+        StateSave highlightedFocused = focusedState.Clone();
+        highlightedFocused.Name = FrameworkElement.HighlightedFocusedStateName;
+        category.States.Add(highlightedFocused);
 
-        //KeyDown += HandleKeyDown;
+        StateSave highlighted = enabledState.Clone();
+        highlighted.Name = FrameworkElement.HighlightedStateName;
+        category.States.Add(highlighted);
 
-        //topLevelContainer.RollOn += HandleRollOn;
+        KeyDown += HandleKeyDown;
 
-        //Visual = topLevelContainer;
+        topLevelContainer.RollOn += HandleRollOn;
+
+        Visual = topLevelContainer;
 
     }
 
